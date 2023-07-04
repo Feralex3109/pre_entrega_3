@@ -1,0 +1,43 @@
+body {
+  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  header {
+    background-color: white;
+    font-size: 15px;
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .titulo {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        display: flexbox;
+
+        .parrafo {
+          color: white;
+          font-size: 15px;
+          text-align: center;
+
+          .link-promocion {
+            color: yellowgreen;
+            text-decoration: none;
+
+            #carouselExample {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              min-height: 100vh;
+              min-width: 100vh;
+            }
+          }
+        }
+      }
+    }
+  }
+}

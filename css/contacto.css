@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: white;
+  font-size: 15px;
+  background-image: radial-gradient(ellipse, black, white);
+}
+
+div {
+  color: white;
+}
+
+.texto {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: inline-flexbox;
+}
+
+nav {
+  list-style: none;
+  background-image: linear-gradient(to top, black, white);
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  color: darkblue;
+  padding: 3rem, 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+  height: 30px;
+  width: 100px;
+}
+
+.boton:hover {
+  background: gray;
+  box-shadow: 0 0 30px rgba(39, 37, 37, 0.329);
+  transition: transform 0.5s;
+}
+
+.boton:focus {
+  background: black;
+  color: white;
+}
+
+.input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2222bc;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2222bc;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+.button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2222bc;
+  border-color: #2222bc;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+.button p {
+  color: #fff;
+}
+
+.span {
+  color: #2222bc;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #2222bc;
+}
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+.parraf {
+  font-size: 14px;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.boton {
+  color: darkblue;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+}
+
+.boton:hover {
+  box-shadow: 0 0 30px rgba(39, 37, 37, 0.329);
+  transition: transform 0.6s;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  div {
+    flex-basis: 33%;
+  }
+}

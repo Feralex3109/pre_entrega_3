@@ -1,0 +1,20 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feralex3109/PreEntrega2Ospina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feralex3109/PreEntrega2Ospina/issues"
+  },
+  "homepage": "https://github.com/Feralex3109/PreEntrega2Ospina#readme"
+}

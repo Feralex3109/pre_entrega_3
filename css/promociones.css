@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: white;
+  font-size: 15px;
+  background-image: radial-gradient(ellipse, black, white);
+}
+
+nav {
+  list-style: none;
+  background-image: linear-gradient(to top, black, white);
+  display: flex;
+  justify-content: center;
+}
+
+.texto {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: inline-flexbox;
+}
+
+article {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+img:hover {
+  background: none;
+  transform: scale(1, 1.2);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.boton {
+  color: darkblue;
+  padding: 3rem, 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+  height: 30px;
+  width: 100px;
+}
+
+.boton:hover {
+  background: gray;
+  box-shadow: 0 0 30px rgba(39, 37, 37, 0.329);
+  transition: transform 0.5s;
+}
+
+.boton:focus {
+  background: black;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  div {
+    flex-basis: 33%;
+  }
+}
