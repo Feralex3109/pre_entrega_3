@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-image: url("/src/Fondos/Fondo1.jpeg");
   background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -57,6 +57,7 @@ nav {
   text-align: center;
   justify-content: center;
   display: flexbox;
+  padding: 5%;
 }
 
 .parrafo {
@@ -65,9 +66,23 @@ nav {
   text-align: center;
 }
 
-.link-promocion {
-  color: yellowgreen;
-  text-decoration: none;
+.button {
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2222bc;
+  border-color: #2222bc;
+  border-style: solid;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.button p {
+  color: #fff;
 }
 
 #carouselExample {
@@ -76,6 +91,11 @@ nav {
   justify-content: center;
   min-height: 100vh;
   min-width: 100vh;
+}
+
+.carousel-item {
+  width: 500px;
+  height: 500px;
 }
 
 img:hover {

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-image: url("/src/Fondos/Fondo1.jpeg");
   background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -16,7 +16,8 @@ header {
   background-image: radial-gradient(ellipse, black, white);
 }
 
-main {
+h1 {
+  color: white;
   justify-content: center;
   text-align: center;
 }
@@ -28,18 +29,11 @@ nav {
   justify-content: center;
 }
 
-.texto {
+H2 {
+  padding: 5%;
   color: white;
   justify-content: center;
   text-align: center;
-  display: inline-flexbox;
-}
-
-.parrafo {
-  color: white;
-  justify-content: center;
-  text-align: center;
-  display: inline-flexbox;
 }
 
 .boton {
@@ -63,8 +57,42 @@ nav {
   color: white;
 }
 
-article img {
+div .col {
   animation: fadeIn 3s ease;
+}
+
+.card {
+  border: 1px solid rgba(212, 206, 206, 0.438);
+}
+
+.card img {
+  border-radius: 2%;
+}
+
+p .card-text {
+  margin: 2px;
+  font-size: 12px;
+}
+
+.card-img-top {
+  height: 40vh;
+  transition: transform 0.6s;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.card {
+  border: 1px solid rgba(212, 206, 206, 0.438);
+  transition: transform 0.6s;
+  box-shadow: 0 0 3px rgba(124, 119, 119, 0.329);
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(39, 37, 37, 0.329);
+  transition: transform 0.6s;
 }
 
 @keyframes fadeIn {

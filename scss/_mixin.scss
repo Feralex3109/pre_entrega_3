@@ -1,0 +1,15 @@
+@mixin color-invertido {
+  background-color: black;
+  color: white;
+
+  h1.invertido {
+    font-size: 1.3em;
+    padding: 15px;
+    @include color-invertido;
+
+    div.invertido {
+      padding: 5px;
+      @include color-invertido;
+    }
+  }
+}

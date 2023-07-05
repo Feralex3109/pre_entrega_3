@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/src/Fondos/Fondo1.jpg");
+  background-image: url("/src/Fondos/Fondo1.jpeg");
   background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -28,6 +28,10 @@ nav {
   justify-content: center;
   text-align: center;
   display: inline-flexbox;
+}
+
+h3 {
+  padding: 3%;
 }
 
 article {
@@ -62,6 +66,25 @@ img:hover {
 .boton:focus {
   background: black;
   color: white;
+}
+
+.button {
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2222bc;
+  border-color: #2222bc;
+  border-style: solid;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.button p {
+  color: #fff;
 }
 
 @media (min-width: 600px) {
